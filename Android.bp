@@ -1,4 +1,5 @@
 // Copyright (C) 2020 Paranoid Android
+//               2022 AOSP The Kraken Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -22,6 +23,7 @@ android_app {
     static_libs: [
         "androidx.core_core",
         "androidx.preference_preference",
+        "org.kraken.settings.resources",
         "SettingsLib",
     ],
 }
